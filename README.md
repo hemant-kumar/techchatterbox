@@ -1,2 +1,1 @@
-# tech-chatter-box
-Tech Chatter Box
+# Tech Chatter Box
