@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL=/" />
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      // Extract the path and store it
+      sessionStorage.redirect = location.pathname + location.search + location.hash;
+      // Redirect to index.html
+      location.replace('/');
+    </script>
   </head>
-  <body>
-  </body>
+  <body></body>
 </html>
